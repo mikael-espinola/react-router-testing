@@ -8,6 +8,7 @@ const Login = () => {
   };
   return (
     <>
+      <img width={60} height={60} src="assets/Profile.png" />
       <div>Login</div>
       <button onClick={navigateTo}>User</button>
     </>
