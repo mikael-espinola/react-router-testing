@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const UserScreen = () => {
   const navigate = useNavigate();
   const navigateTo = () => {
-    navigate("/");
+    navigate("/react-router-testing");
   };
   return (
     <>

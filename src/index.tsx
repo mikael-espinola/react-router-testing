@@ -7,11 +7,11 @@ import UserScreen from "./pages/userScreen/UserScreen";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-router-testing",
     element: <App />,
     children: [
-      { path: "/", element: <Login /> },
-      { path: "/user", element: <UserScreen /> },
+      { path: "/react-router-testing", element: <Login /> },
+      { path: "/react-router-testing/user", element: <UserScreen /> },
     ],
   },
 ]);

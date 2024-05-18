@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
   const navigate = useNavigate();
   const navigateTo = () => {
-    navigate("/user");
+    navigate("/react-router-testing/user");
   };
   return (
     <>
